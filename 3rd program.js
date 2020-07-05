@@ -1,8 +1,8 @@
 // string add 1st methode of program....
-// const firstName = "justin";
-// const lastName = "timberlack";
-// const fullName = firstName + " " + lastName + " is a good boy";
-// console.log(fullName);
+const firstName = "justin";
+const lastName = "timberlack";
+const fullName = firstName + " " + lastName + " is a good boy";
+console.log(fullName);
 
 // string add 2nd methode of program...
 const firstName = "justin";
