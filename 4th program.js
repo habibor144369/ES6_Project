@@ -69,5 +69,3 @@ console.log(tottal);
  const result2 = doubleIt(50, 50);
   total = result2 * result2;
  console.log(total);
-
- 
