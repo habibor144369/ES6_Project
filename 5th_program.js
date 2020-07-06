@@ -2,7 +2,7 @@
 const ages = [10, 12, 14, 16];
 const ages2 = [20, 22, 24, 26];
 const ages3 = [30, 32, 34, 36];
-const allAges = ages.concat([100,200]).concat(ages2).concat([100,200]).concat(ages3).concat([100,200]); //.concat([100,200]) new array element add in array.
+const allAges = ages.concat([100,200]).concat(ages2).concat([100,200]).concat(ages3).concat([100,200]); //.concat([100,200]) new element add in array.
 console.log(allAges);
 
 
