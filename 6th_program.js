@@ -1,0 +1,39 @@
+// creat a new multipal object dynamic syestem....
+class Student{
+    constructor(ID, NAME){
+        this.ID = ID;
+        this.NAME = NAME;
+        this.COLLAGE = "Shyamoli ideal polytechnic institiute"
+    }
+}
+const student1 = new Student("33/18", "Habibor Rahaman");
+const student2 = new Student("16/26", "Wahidur Rahaman");
+
+console.log(student1, student2);
+
+
+
+// editing to object: property add, property delete, property ellement change excetra.......
+class Student{
+    constructor(ID, NAME){
+        this.ID = ID;
+        this.NAME = NAME;
+        this.COLLAGE = "Shyamoli ideal polytechnic institiute"
+    }
+}
+const student1 = new Student("33/18", "Habibor Rahaman");
+const student2 = new Student("16/26", "Wahidur Rahaman");
+
+// editing id student1.... 
+ delete student1.ID;   // delete a property....
+ student1.ID = 19;   //new property add........
+ student1.Phone = "01768280237";  //new property add........
+ student1.Phone = "93892343";  // property element changing....
+
+ //editing id student2......
+ delete student2.ID;   // delete a property....
+ student2.ID = 14;   //new property add........
+ student2.Phone = "01311606870";  //new property add........
+ student2.Phone = "03238282";  // property element changing....
+
+console.log(student1, student2);
